@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f7eeee;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffcc80;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.productos {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+}
+
+button {
+    background-color: #48e;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+button:hover {
+    background-color: rgb(46, 113, 214);
+}
